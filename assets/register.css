@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body.auth-body {
+    background-color: #edf5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.auth-box h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.auth-box p.subtitle {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 0.875rem;
+    color: #64748b;
+}
+
+/* Alert Pesan Error / Sukses */
+.alert-danger {
+    background-color: #fee2e2;
+    border: 1px solid #f87171;
+    color: #991b1b;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form label {
+    font-weight: 600;
+    color: #334155;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.875rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+form input:focus {
+    border-color: #0265cb;
+    box-shadow: 0 0 0 3px rgba(2, 101, 203, 0.15);
+}
+
+.btn-register {
+    width: 100%;
+    background-color: #0265cb;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: background 0.2s;
+    margin-top: 4px;
+}
+
+.btn-register:hover {
+    background-color: #0252a5;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 0.875rem;
+    color: #64748b;
+}
+
+.auth-footer a {
+    color: #0265cb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.auth-footer a.back-link {
+    color: #64748b;
+    font-weight: normal;
+}
+
+.auth-footer a:hover {
+    text-decoration: underline;
+}
